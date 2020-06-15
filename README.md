@@ -9,4 +9,5 @@ Step 4 -> Developer have uploaded the  code into github repo also the repo has s
 Step 5 -> Copy the github repo code into /var/www/html folder
 Step 6 -> Create s3 bucket , and copy/deploy the images from github repo into s3 bucket and change the permission to public readable
 Step 7 -> Create cloudfront using s3 bucket(which contains images) and use the cloudfront URL to update in code in /var/www/html
+Conclusion these all things are a done by a single terraform code which is uploaded hear
 ```
